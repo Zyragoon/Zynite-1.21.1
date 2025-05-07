@@ -1,5 +1,7 @@
 package com.zyra.zynite;
 
+import com.zyra.zynite.block.ModBlocks;
+import com.zyra.zynite.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,6 +13,7 @@ public class Zynite implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

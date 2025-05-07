@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "zynite:block/deepslate_zynite_ore"
+    }
+  }
+}

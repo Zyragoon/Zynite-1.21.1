@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "zynite:block/raw_zynite_block"
+    }
+  }
+}
