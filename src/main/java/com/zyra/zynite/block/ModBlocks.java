@@ -18,10 +18,11 @@ import net.minecraft.world.BlockView;
 
 public class ModBlocks {
     public static final Block RAW_ZYNITE_BLOCK = registerBlock("raw_zynite_block",
-            new Block(AbstractBlock.Settings.create().strength(7,15).requiresTool().sounds(BlockSoundGroup.METAL)));
+            new Block(AbstractBlock.Settings.create().strength(7,15).requiresTool().sounds(BlockSoundGroup.STONE)));
     public static final Block DEEPSLATE_ZYNITE_ORE = registerBlock("deepslate_zynite_ore",
             new Block(AbstractBlock.Settings.create().strength(8,15).requiresTool().sounds(BlockSoundGroup.DEEPSLATE).emissiveLighting(ModBlocks::always).luminance(value -> 2)));
-
+    public static final Block BLOCK_OF_ZYNITE = registerBlock("block_of_zynite",
+            new Block(AbstractBlock.Settings.create().strength(9,20).requiresTool().sounds(BlockSoundGroup.METAL)));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
@@ -37,6 +38,11 @@ public class ModBlocks {
         Zynite.LOGGER.info("registering Mod Blocks for " + Zynite.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(fabricItemGroupEntries -> {
+            fabricItemGroupEntries.add(ModBlocks.RAW_ZYNITE_BLOCK);
+            fabricItemGroupEntries.add(ModBlocks.DEEPSLATE_ZYNITE_ORE);
+            fabricItemGroupEntries.add(ModBlocks.BLOCK_OF_ZYNITE);
+        });
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(fabricItemGroupEntries -> {
             fabricItemGroupEntries.add(ModBlocks.RAW_ZYNITE_BLOCK);
             fabricItemGroupEntries.add(ModBlocks.DEEPSLATE_ZYNITE_ORE);
         });

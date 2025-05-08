@@ -3,5 +3,8 @@
   "item.zynite.raw_zynite_chunk": "Raw Zynite Chunk",
 
   "block.zynite.raw_zynite_block": "Block of Raw Zynite",
-  "block.zynite.deepslate_zynite_ore": "Deepslate Zynite Ore"
+  "block.zynite.deepslate_zynite_ore": "Deepslate Zynite Ore",
+  "block.zynite.block_of_zynite": "Block of Zynite",
+
+  "itemgroup.zynite.zynite_items": "Zynite Items"
 }

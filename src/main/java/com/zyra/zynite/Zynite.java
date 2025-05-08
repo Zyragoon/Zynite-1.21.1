@@ -1,6 +1,7 @@
 package com.zyra.zynite;
 
 import com.zyra.zynite.block.ModBlocks;
+import com.zyra.zynite.item.ModItemGroups;
 import com.zyra.zynite.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -15,5 +16,6 @@ public class Zynite implements ModInitializer {
 	public void onInitialize() {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModItemGroups.registerModItemGroups();
 	}
 }
