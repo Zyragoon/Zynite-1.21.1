@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "zynite:block/deepslate_zynite_ore"
-  }
-}

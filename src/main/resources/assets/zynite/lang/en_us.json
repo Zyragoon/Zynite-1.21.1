@@ -6,5 +6,16 @@
   "block.zynite.deepslate_zynite_ore": "Deepslate Zynite Ore",
   "block.zynite.block_of_zynite": "Block of Zynite",
 
-  "itemgroup.zynite.zynite_items": "Zynite Items"
+
+  "item.zynite.zynite_helmet": "Zynite Helmet",
+  "item.zynite.zynite_chestplate": "Zynite Chestplate",
+  "item.zynite.zynite_leggings": "Zynite Leggings",
+  "item.zynite.zynite_boots": "Zynite Boots",
+
+
+
+
+
+
+  "itemgroup.zynite.zynite_items": "Zynite"
 }

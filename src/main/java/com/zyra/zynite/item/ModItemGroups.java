@@ -22,6 +22,11 @@ public class ModItemGroups {
                         entries.add(ModBlocks.BLOCK_OF_ZYNITE);
                         entries.add(ModBlocks.RAW_ZYNITE_BLOCK);
 
+                        entries.add(ModItems.ZYNITE_HELMET);
+                        entries.add(ModItems.ZYNITE_CHESTPLATE);
+                        entries.add(ModItems.ZYNITE_LEGGINGS);
+                        entries.add(ModItems.ZYNITE_BOOTS);
+
                     }).build());
 
 
